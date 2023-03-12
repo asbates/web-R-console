@@ -5,3 +5,13 @@ This repository is an experiment with [webR](https://github.com/r-wasm/webr) whi
 
 For this project I created a simple React application containing an R console.
 The editor I use is [CodeMirror](https://codemirror.net/) via a [React component](https://uiwjs.github.io/react-codemirror/).
+
+You can find this site deployed with Netflify at [https://main--gregarious-gumdrop-801aff.netlify.app/](https://main--gregarious-gumdrop-801aff.netlify.app/).
+
+To run locally, clone this repo the run the following commands.
+
+```bash
+cd app
+npm install
+npm run dev
+```
