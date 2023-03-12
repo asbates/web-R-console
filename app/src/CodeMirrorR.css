@@ -1,0 +1,32 @@
+.code-mirror-r {
+  display: grid;
+  grid-template-rows: 2em 1fr;
+}
+
+#run {
+  width: 15%;
+  border: 1px solid var(--dark-blue);
+  border-top-right-radius: 0.1em;
+  border-top-left-radius: 0.1em;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  text-decoration: none;
+  background-color: var(--light-blue);
+  color: var(--dark-blue);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 500px;
+}
+
+pre {
+  margin: 0;
+  padding-top: 5px;
+  padding-left: 5px;
+  height: 100%;
+  background-color: var(--dark-blue);
+  color: var(--light-blue);
+  border-left: 1px solid var(--light-blue);
+}

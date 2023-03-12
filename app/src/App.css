@@ -1,0 +1,14 @@
+a {
+  text-decoration: none;
+  color: #5b8cf5;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+code {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+  color: #5b8cf5;
+}
