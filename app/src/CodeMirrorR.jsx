@@ -4,7 +4,7 @@ import { StreamLanguage } from "@codemirror/language";
 import { r } from "@codemirror/legacy-modes/mode/r";
 import { tokyoNightStorm } from "@uiw/codemirror-theme-tokyo-night-storm";
 import { WebR } from "@r-wasm/webr";
-import "./codeMirrorR.css";
+import "../src/CodeMirrorR.css";
 
 const webR = new WebR();
 await webR.init();
